@@ -8,6 +8,9 @@ branches:
 
 cache: node_modules
 
+init:
+  - ps: Install-Product node 10
+
 install:
   - yarn
 
